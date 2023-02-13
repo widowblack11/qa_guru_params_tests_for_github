@@ -1,0 +1,2 @@
+[tool.pytest_ini_options]
+addopts = " --durations=10 -l -vv "
