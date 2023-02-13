@@ -7,7 +7,7 @@ from selene.support.shared import browser
 def test_login_desktop_indirect(given_size):
     browser.open('https://github.com/')
     browser.element('[href="/login"]').click()
-    
+
     assert browser.element('#login').should(be.visible)
 
 
